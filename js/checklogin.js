@@ -15,7 +15,8 @@ const firebaseConfig = {
 // Initialize Firebase  
 const app = initializeApp(firebaseConfig);
 
-// Automatically log in the user  
+// Set a fixed key and log the user in  
+localStorage.setItem("keyId", "6892903655829");
 localStorage.setItem("isLoggedIn", "true");
 
 // Redirect to the main page  
